@@ -1,0 +1,2 @@
+name,address,phone,occup_type,b_sic_desc,google_type,preK_daycare,in_fsaf_yn,risk_raw_score,risk_rating,risk_category,num_fire_50m,inspection_date,issue_date,num_inspect_5years,inspect_pct,fire_count_pct,google_review_num,google_rating,fsaf_id,b_id,liq_id,google_id,costar_property_id,provider_no,b_sic,fsaf_name,blis_name,liq_name,google_name,pkdc_name,y,x,google_website,new_prop_type
+sample bar,123 sample St,(404)6666666,NA,NA,NA,NA,0,NA,NA,NA,0,10/12/1988,10/12/1988,0,NA,NA,0,0,-1,-1,-1,NA,-1,NA,0,NA,NA,NA,NA,NA,0.00001,0.00001,NA,NA

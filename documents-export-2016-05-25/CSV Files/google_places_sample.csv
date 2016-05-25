@@ -1,0 +1,2 @@
+g_id,name,rating_num,closed,y,x,g_in_fs_yn,fs_name,fs_id,g_in_bl_yn,bl_name,bl_sic,bl_id,g_in_lq_yn,lq_name,lq_id,address,phone,rating,website,google_url,type,type_all,zip_code
+G1abc,name,0,-1,0.0001,0.0001,0,NF,0,0,NF,0,0,0,NF,0,123 sample st,(404)666666,0.1,www.123.com,https://www.google.com,Resturant,"bar, rest",11111
