@@ -1,7 +1,6 @@
 
 
-## Property/Addresses Data Processing: 
-#### data collection, cleaning, joining, geocoding, fuzzy matching
+## Joining Property Data: 
 
 This folder includes Python codes and data files for data collection, geocoding, fuzzy address matching, and joining. More information about this project can be found [here](www.google.com). 
 
