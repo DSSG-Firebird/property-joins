@@ -1,8 +1,20 @@
 
 
-## Joining Property Data: 
+# Joining Property Data #
 
-This folder includes Python codes and data files for data collection, geocoding, fuzzy address matching, and joining. More information about this project can be found [here](www.google.com). 
+
+The Firebird framework is designed to help municipal fire departments:</br>
+1. <a href="https://github.com/DSSG-Firebird/property-joins">Discover new properties for inspection</a><br>
+2. <a href="https://github.com/DSSG-Firebird/risk-model">Prioritize those property inspections by their fire risk
+</a><br>
+3. <a href="https://github.com/DSSG-Firebird/interactive-map">Visualize property inspections on an interactive map
+</a><br>
+
+More information on the Firebird project can be found <a href="http://www.firebird.gatech.edu">here</a>.
+
+- - - - 
+
+This repository includes Python codes and data files for data collection, geocoding, fuzzy address matching, and joining. 
 
 ### All files and description 
 
