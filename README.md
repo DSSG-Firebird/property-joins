@@ -61,4 +61,4 @@ Once the property joining is finished, go to the <a href="https://github.com/DSS
 
 
 <br><br><br><br>
-##### written by Oliver Haimson, with Michael Madaio, Xiang Cheng and Wenwen Zhang <br>on behalf of Data Science for Social Good, Atlanta<br> for Atlanta Fire Rescue Department
+##### written by Xiang Cheng, with Oliver Haimson,  Michael Madaio, and Wenwen Zhang <br>on behalf of Data Science for Social Good, Atlanta<br> for Atlanta Fire Rescue Department
