@@ -12,9 +12,10 @@ The Firebird framework is designed to help municipal fire departments:</br>
 
 More information on the Firebird project can be found <a href="http://www.firebird.gatech.edu">here</a>.
 
-- - - - 
+This repository includes Python codes and data files to help you join various datasets about commercial properties, using geocoding, fuzzy address matching, and other data joining methods.
 
-This repository includes Python codes and data files for data collection, geocoding, fuzzy address matching, and joining. 
+======
+
 
 ### All files and description 
 
