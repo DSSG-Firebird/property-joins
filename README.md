@@ -54,3 +54,7 @@ This repository includes Python codes and data files to help you join various da
 More information can be found in the [code books](https://docs.google.com/spreadsheets/d/1d2xhMRfJApGkbJbriepnpVG9K9DGSXA8Hxo2LqQvIUE/edit?usp=sharing).
 
 *Note: the real property information has been removed, but it is easy to find the structure of these data from the remaining files and code books.*
+
+
+<br><br><br><br>
+##### written by Oliver Haimson, with Michael Madaio, Xiang Cheng and Wenwen Zhang <br>on behalf of Data Science for Social Good, Atlanta<br> for Atlanta Fire Rescue Department
