@@ -12,9 +12,20 @@ The Firebird framework is designed to help municipal fire departments:</br>
 
 More information on the Firebird project can be found <a href="http://www.firebird.gatech.edu">here</a>.
 
-This repository includes Python codes and data files to help you join various datasets about commercial properties, using geocoding, fuzzy address matching, and other data joining methods.
+This repository includes Python codes and data files to help you join various datasets about commercial properties, using geocoding, fuzzy address matching, and other data joining methods. The Table of Contents of this README:
 
-======
+- [step-by-step instructions](#step-by-step-instructions)
+- [all files and descriptions](#all-files-descriptions)
+- [basic logic](#basic-logic)  
+
+
+### Step-by-step instructions
+1. Run `address_to_xy_geocoding.py` to geocode addresses to lattitude (y) and longitude (x);
+2. (optional) Run `Google_Place_API_search.py` to collect properties infomation from Google Places API;
+3. Run `Data_join_for_property_list.py` to join the property list;
+4. Run `Property_long_list_generator.py` or `Property_short_list_generator.py` to generate a long or short list.
+
+Note that the Python scripts depend on the csv files which are described [below](#all-files-descriptions). Make sure the csv files have the same format to use the same code. You may also change the codes based on the [basic logic](#basic-logic).
 
 
 ### All files and description 
@@ -55,6 +66,21 @@ More information can be found in the [code books](https://docs.google.com/spread
 
 *Note: the real property information has been removed, but it is easy to find the structure of these data from the remaining files and code books.*
 
+### Basic logic
+
+1. Notes before going through any codes:
+
+  - The idea is simple: connecting/joining data sets using both coordinates and business/property names;
+  - It may be not a good idea to use the codes directly to join data sets together because the code is very specific to certain data sets. A lot of lines deal with specific columns, specific 'dirty' data points, and specific 'types';
+  - It may be very hard to understand all parts of the code without being familiar with the messy and numerous data sets
+
+2. Suggestions to use 'our code' of joining data:
+
+Using our framework may be easier: connecting/joining data sets using both coordinates and business/property names. Specifically 
+ - 2.1. have 2 data sets, A and B, ready for joining, with columns of both business name and coordinates (latitude and longitude);
+ - 2.2. For each row in A, find the rows in B that abs(A.latitude - B.latitude)<tolerance and abs(A.longitude-B.longitude)<tolerance;
+ - 2.3. Among the rows in B that were found close to a row in A, calculate the 'string match scores' using a function in a package `fuzzywuzzy` (other packages may work as well);
+ - 2.4. Find the top "string matching score" and join/link these 2 rows together.
 
 ##Next
 Once the property joining is finished, go to the <a href="https://github.com/DSSG-Firebird/risk-model">Risk Model<a>.
